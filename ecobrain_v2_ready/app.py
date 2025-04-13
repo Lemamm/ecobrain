@@ -10,9 +10,6 @@ st.set_page_config(page_title="EcoBrain+", layout="wide")
 
 data_path = os.path.join("data", "sample_data.json")
 
-st.write("Chemin de fichier :", data_path)
-st.write("Existe :", os.path.exists(data_path))
-
 if not os.path.exists(data_path):
     st.error("❌ Données manquantes : `data/sample_data.json`")
     st.stop()

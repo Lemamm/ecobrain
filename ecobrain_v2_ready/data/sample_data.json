@@ -1,16 +1,14 @@
 {
-    "zone_id": "FR-IDF",
-    "population": 12100000,
-    "energy": {
-        "electricity_kWh": 3200,
-        "gas_kWh": 2700,
-        "renewable_ratio": 0.35
-    },
-    "transport": {
-        "co2_emission_kg": 1500
-    },
-    "food": {
-        "avg_calories": 2400,
-        "meat_ratio": 45
-    }
+  "zone_id": "FR-75",
+  "population": 2148000,
+  "energy": {
+    "electricity_kWh": 3200
+  },
+  "transport": {
+    "co2_emission_kg": 1700
+  },
+  "food": {
+    "avg_calories": 2500,
+    "meat_ratio": 30
+  }
 }

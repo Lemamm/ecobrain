@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="EcoBrain+", layout="wide")
 
 data_path = os.path.join("data", "sample_data.json")
+
 st.write("Chemin de fichier :", data_path)
 st.write("Existe :", os.path.exists(data_path))
 
